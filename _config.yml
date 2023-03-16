@@ -1,35 +1,33 @@
-# SITE SETTINGS
-title: mason369_blog                        # Title in top navigation bar (navbar) and <head>
-author: Peter Desmet                    # Used for copyright statement in footer
-baseurl: "/mason369_blog"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
-                                        # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
-                                        # A baseurl affects internal links, see http://peterdesmet.github.io/mason369_blog/markdown/#links
+# 站点设置
+title: mason369_blog        # 网站标题，显示在导航栏和 中 
+ author: Peter Desmet       # 用于在页脚中显示版权声明 
+ baseurl: "/mason369_blog"  # 只有当网站在子目录下时才需要，比如 https://username.github.io/sitename # url: "https://username.github.io"，baseurl: "/sitename"，注意前导斜杠 # baseurl 会影响内部链接，详见 http://peterdesmet.github.io/mason369_blog/markdown/#links
 
-# SOCIAL PROFILES
-social:
-  email: name@example.com
-  twitter: peterdesmet
-  github: github_username               # Can also be a github_username/repository
-  mastodon: https://mastodon.social/@mastodon_username
-  facebook: https://www.facebook.com/groups/group_id/
-  disqus: disqus_sitename               # Enable Disqus comments from disqus_sitename.disqus.com
+# 社交资料
+social: 
+  email: name@example.com 
+  twitter: peterdesmet 
+  github: github_username # 也可以是 github_username/repository 
+  mastodon: https://mastodon.social/@mastodon_username 
+  facebook: https://www.facebook.com/groups/group_id/ 
+  disqus: disqus_sitename # 启用 Disqus 评论，来源为 disqus_sitename.disqus.com
 
-# THEME SETTINGS (ALL OPTIONAL)
-posts_on_home: 3                        # Show x number of latest posts on homepage, can be 0
-tweets_on_home: true                    # Show Twitter feed of social.twitter on homepage
-archive_permalink: /blog/               # Permalink of page using the archive.html layout, required when using post tags
-github_edit: true                       # Show an "edit this page" link in the footer, can also be name of branch (default: main)
-colors:
-  links: "#007bff"                      # Color for links: use a readable color that contrasts well with dark text
-  banner: "#007bff"                     # Background color for page banners: use color that contrasts well with white
-  footer: "#6c757d"                     # Background color for footer: use color that contrasts well with white
-font_serif: true                        # Font type for page content: serif (default) or slightly smaller sans-serif
-rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
-logo: /assets/theme/images/petri-dish_1f9eb.png # Logo in navbar, will be displayed with 30px height
+# 主题设置（全部可选）
+posts_on_home: 3           # 在首页上显示最新的 x 篇文章，可以为 0 
+tweets_on_home: true      # 在首页上显示社交媒体中的最新推文 
+archive_permalink: /blog/ # 页面的固定链接（permalink），使用 archive.html 布局时必须指定 
+github_edit: true         # 在页脚上显示一个“编辑本页”的链接，可以指定为分支名称（默认为 main） 
+colors: 
+  links: "#007bff"  # 链接的颜色：使用与深色文本对比度良好的可读颜色 
+  banner: "#007bff" # 页面横幅的背景颜色：使用与白色对比度良好的颜色 
+  footer: "#6c757d" # 页脚的背景颜色：使用与白色对比度良好的颜色 
+  font_serif: true  # 页面内容的字体类型：衬线字体（默认）或稍小的无衬线字体 
+  rounded_corners: true # 启用（默认）盒子和按钮的圆角 
+  logo: /assets/theme/images/petri-dish_1f9eb.png # 导航栏中的 logo，高度为 30 像素
 
-# BUILD SETTINGS
-markdown: kramdown
-plugins:                                # If you build your site on gh-pages, only use these plugins: https://pages.github.com/versions/
+# 构建设置
+markdown: kramdown # markdown 渲染方式 
+plugins:           # 如果在 gh-pages 上构建网站，请仅使用以下插件：https://pages.github.com/versions/                   
   - jekyll-feed
   - jekyll-sitemap
 exclude:
@@ -41,14 +39,13 @@ exclude:
   - package-lock.json
   - package.json
   - mason369_blog.gemspec
-
-# FRONTMATTER DEFAULTS
+# 前置设置
 defaults:
   - scope:
       path: ""
     values:
-      layout: default                   # Use default.html layout by default for all files
+      layout: default                   # 所有文件默认使用 default.html 布局
   - scope:
       type: posts
     values:
-      permalink: "/blog/:year/:slug/"   # Use /blog/yyyy/{filename}/ as permalink for all posts
+      permalink: "/blog/:year/:slug/"   # 所有文章默认使用 /blog/yyyy/{filename}/ 作为 permalink
