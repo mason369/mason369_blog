@@ -1,20 +1,20 @@
 {
-  "name": "petridish",
+  "name": "mason369_blog",
   "version": "1.0.0",
   "description": "Jekyll theme for research project websites.",
   "author": "Peter Desmet",
   "license": "MIT",
-  "homepage": "https://github.com/peterdesmet/petridish",
+  "homepage": "https://github.com/peterdesmet/mason369_blog",
   "keywords": [
     "jekyll",
     "theme"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/peterdesmet/petridish.git"
+    "url": "https://github.com/peterdesmet/mason369_blog.git"
   },
   "bugs": {
-    "url": "https://github.com/peterdesmet/petridish/issues"
+    "url": "https://github.com/peterdesmet/mason369_blog/issues"
   },
   "scripts": {
     "copy:bootstrap-scss": "mkdir -p _sass/bootstrap && cp -r node_modules/bootstrap/scss/* _sass/bootstrap",

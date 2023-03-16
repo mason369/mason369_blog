@@ -1,9 +1,9 @@
 # SITE SETTINGS
-title: Petridish                        # Title in top navigation bar (navbar) and <head>
+title: mason369_blog                        # Title in top navigation bar (navbar) and <head>
 author: Peter Desmet                    # Used for copyright statement in footer
-baseurl: "/petridish"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
+baseurl: "/mason369_blog"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
                                         # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
-                                        # A baseurl affects internal links, see http://peterdesmet.github.io/petridish/markdown/#links
+                                        # A baseurl affects internal links, see http://peterdesmet.github.io/mason369_blog/markdown/#links
 
 # SOCIAL PROFILES
 social:
@@ -40,7 +40,7 @@ exclude:
   - LICENSE
   - package-lock.json
   - package.json
-  - petridish.gemspec
+  - mason369_blog.gemspec
 
 # FRONTMATTER DEFAULTS
 defaults:
