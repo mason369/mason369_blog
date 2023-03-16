@@ -1,7 +1,7 @@
 # 站点设置
 title: mason369_blog        # 网站标题，显示在导航栏和 中 
  author: Peter Desmet       # 用于在页脚中显示版权声明 
- baseurl: "/mason369_blog"  # 只有当网站在子目录下时才需要，比如 https://username.github.io/sitename # url: "https://username.github.io"，baseurl: "/sitename"，注意前导斜杠 # baseurl 会影响内部链接，详见 http://peterdesmet.github.io/mason369_blog/markdown/#links
+ baseurl: "/mason369_blog"  # 只有当网站在子目录下时才需要，比如 https://username.github.io/sitename # url: "https://username.github.io",baseurl: "/sitename"，注意前导斜杠 # baseurl 会影响内部链接,详见 http://peterdesmet.github.io/mason369_blog/markdown/#links
 
 # 社交资料
 social: 
@@ -13,7 +13,7 @@ social:
   disqus: disqus_sitename # 启用 Disqus 评论，来源为 disqus_sitename.disqus.com
 
 # 主题设置（全部可选）
-posts_on_home: 3           # 在首页上显示最新的 x 篇文章，可以为 0 
+posts_on_home: 3          # 在首页上显示最新的 x 篇文章，可以为 0 
 tweets_on_home: true      # 在首页上显示社交媒体中的最新推文 
 archive_permalink: /blog/ # 页面的固定链接（permalink），使用 archive.html 布局时必须指定 
 github_edit: true         # 在页脚上显示一个“编辑本页”的链接，可以指定为分支名称（默认为 main） 
