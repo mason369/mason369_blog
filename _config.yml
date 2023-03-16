@@ -1,33 +1,33 @@
 # 站点设置
-title: mason369_blog        # 网站标题，显示在导航栏和 中 
- author: Peter Desmet       # 用于在页脚中显示版权声明 
- baseurl: "/mason369_blog"  # 只有当网站在子目录下时才需要，比如 https://username.github.io/sitename # url: "https://username.github.io"，baseurl: "/sitename"，注意前导斜杠 # baseurl 会影响内部链接，详见 http://peterdesmet.github.io/mason369_blog/markdown/#links
+title: mason369_blog                    # 网站标题，显示在导航栏和<head>中
+author: Peter Desmet                    # 用于在页脚中显示版权声明 
+baseurl: "/mason369_blog"               # 只有当网站在子目录下时才需要，比如 https://username.github.io/sitename # url: "https://username.github.io"，baseurl: "/sitename"，注意前导斜杠 # baseurl 会影响内部链接，详见 http://peterdesmet.github.io/mason369_blog/markdown/#links
 
 # 社交资料
-social: 
-  email: name@example.com 
-  twitter: peterdesmet 
-  github: github_username # 也可以是 github_username/repository 
-  mastodon: https://mastodon.social/@mastodon_username 
-  facebook: https://www.facebook.com/groups/group_id/ 
-  disqus: disqus_sitename # 启用 Disqus 评论，来源为 disqus_sitename.disqus.com
+social:
+  email: name@example.com
+  twitter: peterdesmet
+  github: github_username               # 也可以是 github_username/repository 
+  mastodon: https://mastodon.social/@mastodon_username
+  facebook: https://www.facebook.com/groups/group_id/
+  disqus: disqus_sitename               # 启用 Disqus 评论，来源为 disqus_sitename.disqus.com
 
 # 主题设置（全部可选）
-posts_on_home: 3           # 在首页上显示最新的 x 篇文章，可以为 0 
-tweets_on_home: true      # 在首页上显示社交媒体中的最新推文 
-archive_permalink: /blog/ # 页面的固定链接（permalink），使用 archive.html 布局时必须指定 
-github_edit: true         # 在页脚上显示一个“编辑本页”的链接，可以指定为分支名称（默认为 main） 
-colors: 
-  links: "#007bff"  # 链接的颜色：使用与深色文本对比度良好的可读颜色 
-  banner: "#007bff" # 页面横幅的背景颜色：使用与白色对比度良好的颜色 
-  footer: "#6c757d" # 页脚的背景颜色：使用与白色对比度良好的颜色 
-  font_serif: true  # 页面内容的字体类型：衬线字体（默认）或稍小的无衬线字体 
-  rounded_corners: true # 启用（默认）盒子和按钮的圆角 
-  logo: /assets/theme/images/petri-dish_1f9eb.png # 导航栏中的 logo，高度为 30 像素
+posts_on_home: 3                        # 在首页上显示最新的 x 篇文章，可以为 0 
+tweets_on_home: true                    # 在首页上显示社交媒体中的最新推文 
+archive_permalink: /blog/               # 页面的固定链接（permalink），使用 archive.html 布局时必须指定 
+github_edit: true                       # 在页脚上显示一个“编辑本页”的链接，可以指定为分支名称（默认为 main） 
+colors:
+  links: "#007bff"                      # 链接的颜色：使用与深色文本对比度良好的可读颜色 
+  banner: "#007bff"                     # 页面横幅的背景颜色：使用与白色对比度良好的颜色 
+  footer: "#6c757d"                     # 页脚的背景颜色：使用与白色对比度良好的颜色 
+font_serif: true                        # 页面内容的字体类型：衬线字体（默认）或稍小的无衬线字体 
+rounded_corners: true                   # 启用（默认）盒子和按钮的圆角 
+logo: /assets/theme/images/petri-dish_1f9eb.png # 导航栏中的 logo，高度为 30 像素
 
 # 构建设置
-markdown: kramdown # markdown 渲染方式 
-plugins:           # 如果在 gh-pages 上构建网站，请仅使用以下插件：https://pages.github.com/versions/                   
+markdown: kramdown
+plugins:                                # 如果在 gh-pages 上构建网站，请仅使用以下插件：https://pages.github.com/versions/
   - jekyll-feed
   - jekyll-sitemap
 exclude:
@@ -39,6 +39,7 @@ exclude:
   - package-lock.json
   - package.json
   - mason369_blog.gemspec
+
 # 前置设置
 defaults:
   - scope:
